@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "scripts/test.sh",
     "trypublish": "npm publish || true"
   },
   "repository": {
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/finwo/asymmetric-diffie-hellman-js/issues"
   },
-  "homepage": "https://github.com/finwo/asymmetric-diffie-hellman-js#readme"
+  "homepage": "https://github.com/finwo/asymmetric-diffie-hellman-js#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "tape": "^4.11.0"
+  }
 }
