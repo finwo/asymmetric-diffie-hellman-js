@@ -1,0 +1,19 @@
+{
+  "name": "asymmetric-diffie-hellman",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finwo/asymmetric-diffie-hellman-js.git"
+  },
+  "author": "Robin Bron <finwo@pm.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finwo/asymmetric-diffie-hellman-js/issues"
+  },
+  "homepage": "https://github.com/finwo/asymmetric-diffie-hellman-js#readme"
+}
