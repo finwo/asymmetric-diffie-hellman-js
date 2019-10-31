@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/finwo/asymmetric-diffie-hellman-js#readme",
   "dependencies": {
+    "big-integer": "^1.6.47"
+  },
+  "devDependencies": {
     "esm": "^3.2.25",
     "tape": "^4.11.0"
   }
