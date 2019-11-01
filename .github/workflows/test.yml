@@ -2,7 +2,7 @@ name: Test and publish
 
 on:
   push:
-    branches:
+    branches-ignore:
       - master
 
 jobs:
@@ -24,10 +24,3 @@ jobs:
       run: |
         npm install
         npm test
-    - name: npm publish
-      run: |
-        npm config set //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN
-        npm publish || true
-      env:
-        CI: true
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

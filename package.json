@@ -4,8 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "scripts/test.sh",
-    "trypublish": "npm publish || true"
+    "test": "scripts/test.sh"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/finwo/asymmetric-diffie-hellman-js#readme",
   "dependencies": {
+    "aes-js": "^3.1.2",
     "big-integer": "^1.6.47"
   },
   "devDependencies": {
