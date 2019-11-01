@@ -17,7 +17,7 @@ export class KeyPair {
 
     // Normalize options
     opts = Object.assign({
-      bits: 128,
+      bits: 256,
       pub: false,
       sec: false,
     }, opts);
